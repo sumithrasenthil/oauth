@@ -40,3 +40,8 @@ Once you have both those values, you need to edit _passport.js with those values
 This URL also needs to be added to Authorized redirect URIs in your Google Console (edit the Client ID you just created and add the callback URL).
 
 
+    1.Add your Google API client Id and Client secret and mongodb connection url in the keys.js file in the config folder.
+
+    2.App.js is the main file in this application .
+
+    3.Install all the depedencies in the package.json file
