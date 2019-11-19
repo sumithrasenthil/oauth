@@ -1,8 +1,8 @@
-**Implementing OAuth 2.0 with Node.js**
+#Implementing OAuth 2.0 with Node.js
 
 OAuth2 is an authentication protocol that is used to authenticate and authorize users in an application by using another service provider. 
 
-**OAuth2 flow**
+##OAuth2 flow
 
 
 Let’s take a brief look at the OAuth protocol before we jump into implementation. If you’ve ever seen a dialog similar to this, then you probably have some idea of what OAuth is:
@@ -31,7 +31,7 @@ The service provider - The external application through which the user authentic
 
 
 
-**Configuration**
+##Configuration
 
 The Client Id and Client Secret needed to authenticate with Google can be set up from the Google Developers Console. You may also need to enable Google+ API in the developer console, otherwise user profile data may not be fetched. Google supports authentication with both oAuth 1.0 and oAuth 2.0.
 
